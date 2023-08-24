@@ -1,0 +1,20 @@
+#enter enable mode
+en
+
+##showing
+#show running config
+sh run
+
+#save running config to boot config
+wr
+#or
+copy running-config startup-config
+
+
+##configging
+#enter configure mode
+conf t
+
+#enter an interface or port
+int g1/0/1
+
